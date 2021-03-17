@@ -16,23 +16,32 @@ function startGame() {
   }
   //console.log(gridIndex);
   p11.textContent = gridIndex[0];
-  p11.style.background = `url(./style/Photos/${gridIndex[0]}.png)`;
+  p11.style.background = `url(./style/Photos/${gridIndex[0]}.jpg
+    )`;
   p12.textContent = gridIndex[1];
-  p12.style.background = `url(./style/Photos/${gridIndex[1]}.png)`;
+  p12.style.background = `url(./style/Photos/${gridIndex[1]}.jpg
+    )`;
   p13.textContent = gridIndex[2];
-  p13.style.background = `url(./style/Photos/${gridIndex[2]}.png)`;
+  p13.style.background = `url(./style/Photos/${gridIndex[2]}.jpg
+    )`;
   p21.textContent = gridIndex[3];
-  p21.style.background = `url(./style/Photos/${gridIndex[3]}.png)`;
+  p21.style.background = `url(./style/Photos/${gridIndex[3]}.jpg
+    )`;
   p22.textContent = gridIndex[4];
-  p22.style.background = `url(./style/Photos/${gridIndex[4]}.png)`;
+  p22.style.background = `url(./style/Photos/${gridIndex[4]}.jpg
+    )`;
   p23.textContent = gridIndex[5];
-  p23.style.background = `url(./style/Photos/${gridIndex[5]}.png)`;
+  p23.style.background = `url(./style/Photos/${gridIndex[5]}.jpg
+    )`;
   p31.textContent = gridIndex[6];
-  p31.style.background = `url(./style/Photos/${gridIndex[6]}.png)`;
+  p31.style.background = `url(./style/Photos/${gridIndex[6]}.jpg
+    )`;
   p32.textContent = gridIndex[7];
-  p32.style.background = `url(./style/Photos/${gridIndex[7]}.png)`;
+  p32.style.background = `url(./style/Photos/${gridIndex[7]}.jpg
+    )`;
   p33.textContent = gridIndex[8];
-  p33.style.background = `url(./style/Photos/${gridIndex[8]}.png)`;
+  p33.style.background = `url(./style/Photos/${gridIndex[8]}.jpg
+    )`;
 
   const element = document.querySelectorAll(".clk");
 
@@ -46,23 +55,32 @@ function startGame() {
 
 function resetGame() {
   p11.textContent = 11;
-  p11.style.background = `url(./style/Photos/11.png)`;
+  p11.style.background = `url(./style/Photos/11.jpg
+    )`;
   p12.textContent = 12;
-  p12.style.background = `url(./style/Photos/12.png)`;
+  p12.style.background = `url(./style/Photos/12.jpg
+    )`;
   p13.textContent = 13;
-  p13.style.background = `url(./style/Photos/13.png)`;
+  p13.style.background = `url(./style/Photos/13.jpg
+    )`;
   p21.textContent = 21;
-  p21.style.background = `url(./style/Photos/21.png)`;
+  p21.style.background = `url(./style/Photos/21.jpg
+    )`;
   p22.textContent = 22;
-  p22.style.background = `url(./style/Photos/22.png)`;
+  p22.style.background = `url(./style/Photos/22.jpg
+    )`;
   p23.textContent = 23;
-  p23.style.background = `url(./style/Photos/23.png)`;
+  p23.style.background = `url(./style/Photos/23.jpg
+    )`;
   p31.textContent = 31;
-  p31.style.background = `url(./style/Photos/31.png)`;
+  p31.style.background = `url(./style/Photos/31.jpg
+    )`;
   p32.textContent = 32;
-  p32.style.background = `url(./style/Photos/32.png)`;
+  p32.style.background = `url(./style/Photos/32.jpg
+    )`;
   p33.textContent = 33;
-  p33.style.background = `url(./style/Photos/33.png)`;
+  p33.style.background = `url(./style/Photos/33.jpg
+    )`;
 }
 
 start.addEventListener("click", startGame);

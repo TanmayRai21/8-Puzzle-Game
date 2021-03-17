@@ -7,15 +7,15 @@ function switchCell(cell) {
           let temp = p11.textContent;
           p11.textContent = p12.textContent;
           p12.textContent = temp;
-          p11.style.background = `url(./style/Photos/${p11.textContent}.png)`;
-          p12.style.background = `url(./style/Photos/${p12.textContent}.png)`;
+          p11.style.background = `url(./style/Photos/${p11.textContent}.jpg)`;
+          p12.style.background = `url(./style/Photos/${p12.textContent}.jpg)`;
         }
         if (p21.textContent == "33") {
           let temp = p21.textContent;
           p21.textContent = p11.textContent;
           p11.textContent = temp;
-          p21.style.background = `url(./style/Photos/${p21.textContent}.png)`;
-          p11.style.background = `url(./style/Photos/${p11.textContent}.png)`;
+          p21.style.background = `url(./style/Photos/${p21.textContent}.jpg)`;
+          p11.style.background = `url(./style/Photos/${p11.textContent}.jpg)`;
         }
         break;
       case "p12":
@@ -23,22 +23,22 @@ function switchCell(cell) {
           let temp = p11.textContent;
           p11.textContent = p12.textContent;
           p12.textContent = temp;
-          p11.style.background = `url(./style/Photos/${p11.textContent}.png)`;
-          p12.style.background = `url(./style/Photos/${p12.textContent}.png)`;
+          p11.style.background = `url(./style/Photos/${p11.textContent}.jpg)`;
+          p12.style.background = `url(./style/Photos/${p12.textContent}.jpg)`;
         }
         if (p22.textContent == "33") {
           let temp = p22.textContent;
           p22.textContent = p12.textContent;
           p12.textContent = temp;
-          p22.style.background = `url(./style/Photos/${p22.textContent}.png)`;
-          p12.style.background = `url(./style/Photos/${p12.textContent}.png)`;
+          p22.style.background = `url(./style/Photos/${p22.textContent}.jpg)`;
+          p12.style.background = `url(./style/Photos/${p12.textContent}.jpg)`;
         }
         if (p13.textContent == "33") {
           let temp = p13.textContent;
           p13.textContent = p12.textContent;
           p12.textContent = temp;
-          p13.style.background = `url(./style/Photos/${p13.textContent}.png)`;
-          p12.style.background = `url(./style/Photos/${p12.textContent}.png)`;
+          p13.style.background = `url(./style/Photos/${p13.textContent}.jpg)`;
+          p12.style.background = `url(./style/Photos/${p12.textContent}.jpg)`;
         }
         break;
       case "p13":
@@ -46,15 +46,15 @@ function switchCell(cell) {
           let temp = p13.textContent;
           p13.textContent = p12.textContent;
           p12.textContent = temp;
-          p13.style.background = `url(./style/Photos/${p13.textContent}.png)`;
-          p12.style.background = `url(./style/Photos/${p12.textContent}.png)`;
+          p13.style.background = `url(./style/Photos/${p13.textContent}.jpg)`;
+          p12.style.background = `url(./style/Photos/${p12.textContent}.jpg)`;
         }
         if (p23.textContent == "33") {
           let temp = p13.textContent;
           p13.textContent = p23.textContent;
           p23.textContent = temp;
-          p23.style.background = `url(./style/Photos/${p23.textContent}.png)`;
-          p13.style.background = `url(./style/Photos/${p13.textContent}.png)`;
+          p23.style.background = `url(./style/Photos/${p23.textContent}.jpg)`;
+          p13.style.background = `url(./style/Photos/${p13.textContent}.jpg)`;
         }
         break;
       case "p21":
@@ -62,22 +62,22 @@ function switchCell(cell) {
           let temp = p21.textContent;
           p21.textContent = p11.textContent;
           p11.textContent = temp;
-          p11.style.background = `url(./style/Photos/${p11.textContent}.png)`;
-          p21.style.background = `url(./style/Photos/${p21.textContent}.png)`;
+          p11.style.background = `url(./style/Photos/${p11.textContent}.jpg)`;
+          p21.style.background = `url(./style/Photos/${p21.textContent}.jpg)`;
         }
         if (p22.textContent == "33") {
           let temp = p21.textContent;
           p21.textContent = p22.textContent;
           p22.textContent = temp;
-          p22.style.background = `url(./style/Photos/${p22.textContent}.png)`;
-          p21.style.background = `url(./style/Photos/${p21.textContent}.png)`;
+          p22.style.background = `url(./style/Photos/${p22.textContent}.jpg)`;
+          p21.style.background = `url(./style/Photos/${p21.textContent}.jpg)`;
         }
         if (p31.textContent == "33") {
           let temp = p21.textContent;
           p21.textContent = p31.textContent;
           p31.textContent = temp;
-          p31.style.background = `url(./style/Photos/${p31.textContent}.png)`;
-          p21.style.background = `url(./style/Photos/${p21.textContent}.png)`;
+          p31.style.background = `url(./style/Photos/${p31.textContent}.jpg)`;
+          p21.style.background = `url(./style/Photos/${p21.textContent}.jpg)`;
         }
         break;
       case "p22":
@@ -85,29 +85,29 @@ function switchCell(cell) {
           let temp = p22.textContent;
           p22.textContent = p12.textContent;
           p12.textContent = temp;
-          p22.style.background = `url(./style/Photos/${p22.textContent}.png)`;
-          p12.style.background = `url(./style/Photos/${p12.textContent}.png)`;
+          p22.style.background = `url(./style/Photos/${p22.textContent}.jpg)`;
+          p12.style.background = `url(./style/Photos/${p12.textContent}.jpg)`;
         }
         if (p21.textContent == "33") {
           let temp = p22.textContent;
           p22.textContent = p21.textContent;
           p21.textContent = temp;
-          p21.style.background = `url(./style/Photos/${p21.textContent}.png)`;
-          p22.style.background = `url(./style/Photos/${p22.textContent}.png)`;
+          p21.style.background = `url(./style/Photos/${p21.textContent}.jpg)`;
+          p22.style.background = `url(./style/Photos/${p22.textContent}.jpg)`;
         }
         if (p23.textContent == "33") {
           let temp = p22.textContent;
           p22.textContent = p23.textContent;
           p23.textContent = temp;
-          p22.style.background = `url(./style/Photos/${p22.textContent}.png)`;
-          p23.style.background = `url(./style/Photos/${p23.textContent}.png)`;
+          p22.style.background = `url(./style/Photos/${p22.textContent}.jpg)`;
+          p23.style.background = `url(./style/Photos/${p23.textContent}.jpg)`;
         }
         if (p32.textContent == "33") {
           let temp = p22.textContent;
           p22.textContent = p32.textContent;
           p32.textContent = temp;
-          p22.style.background = `url(./style/Photos/${p22.textContent}.png)`;
-          p32.style.background = `url(./style/Photos/${p32.textContent}.png)`;
+          p22.style.background = `url(./style/Photos/${p22.textContent}.jpg)`;
+          p32.style.background = `url(./style/Photos/${p32.textContent}.jpg)`;
         }
         break;
       case "p23":
@@ -115,22 +115,22 @@ function switchCell(cell) {
           let temp = p13.textContent;
           p13.textContent = p23.textContent;
           p23.textContent = temp;
-          p13.style.background = `url(./style/Photos/${p13.textContent}.png)`;
-          p23.style.background = `url(./style/Photos/${p23.textContent}.png)`;
+          p13.style.background = `url(./style/Photos/${p13.textContent}.jpg)`;
+          p23.style.background = `url(./style/Photos/${p23.textContent}.jpg)`;
         }
         if (p33.textContent == "33") {
           let temp = p33.textContent;
           p33.textContent = p23.textContent;
           p23.textContent = temp;
-          p23.style.background = `url(./style/Photos/${p23.textContent}.png)`;
-          p33.style.background = `url(./style/Photos/${p33.textContent}.png)`;
+          p23.style.background = `url(./style/Photos/${p23.textContent}.jpg)`;
+          p33.style.background = `url(./style/Photos/${p33.textContent}.jpg)`;
         }
         if (p22.textContent == "33") {
           let temp = p22.textContent;
           p22.textContent = p23.textContent;
           p23.textContent = temp;
-          p22.style.background = `url(./style/Photos/${p22.textContent}.png)`;
-          p23.style.background = `url(./style/Photos/${p23.textContent}.png)`;
+          p22.style.background = `url(./style/Photos/${p22.textContent}.jpg)`;
+          p23.style.background = `url(./style/Photos/${p23.textContent}.jpg)`;
         }
         break;
       case "p31":
@@ -138,15 +138,15 @@ function switchCell(cell) {
           let temp = p21.textContent;
           p21.textContent = p31.textContent;
           p31.textContent = temp;
-          p21.style.background = `url(./style/Photos/${p21.textContent}.png)`;
-          p31.style.background = `url(./style/Photos/${p31.textContent}.png)`;
+          p21.style.background = `url(./style/Photos/${p21.textContent}.jpg)`;
+          p31.style.background = `url(./style/Photos/${p31.textContent}.jpg)`;
         }
         if (p32.textContent == "33") {
           let temp = p32.textContent;
           p32.textContent = p31.textContent;
           p31.textContent = temp;
-          p32.style.background = `url(./style/Photos/${p32.textContent}.png)`;
-          p31.style.background = `url(./style/Photos/${p31.textContent}.png)`;
+          p32.style.background = `url(./style/Photos/${p32.textContent}.jpg)`;
+          p31.style.background = `url(./style/Photos/${p31.textContent}.jpg)`;
         }
         break;
       case "p32":
@@ -154,22 +154,22 @@ function switchCell(cell) {
           let temp = p22.textContent;
           p22.textContent = p32.textContent;
           p32.textContent = temp;
-          p22.style.background = `url(./style/Photos/${p22.textContent}.png)`;
-          p32.style.background = `url(./style/Photos/${p32.textContent}.png)`;
+          p22.style.background = `url(./style/Photos/${p22.textContent}.jpg)`;
+          p32.style.background = `url(./style/Photos/${p32.textContent}.jpg)`;
         }
         if (p31.textContent == "33") {
           let temp = p31.textContent;
           p31.textContent = p32.textContent;
           p32.textContent = temp;
-          p31.style.background = `url(./style/Photos/${p31.textContent}.png)`;
-          p32.style.background = `url(./style/Photos/${p32.textContent}.png)`;
+          p31.style.background = `url(./style/Photos/${p31.textContent}.jpg)`;
+          p32.style.background = `url(./style/Photos/${p32.textContent}.jpg)`;
         }
         if (p33.textContent == "33") {
           let temp = p33.textContent;
           p33.textContent = p32.textContent;
           p32.textContent = temp;
-          p33.style.background = `url(./style/Photos/${p33.textContent}.png)`;
-          p32.style.background = `url(./style/Photos/${p32.textContent}.png)`;
+          p33.style.background = `url(./style/Photos/${p33.textContent}.jpg)`;
+          p32.style.background = `url(./style/Photos/${p32.textContent}.jpg)`;
         }
         break;
       case "p33":
@@ -177,15 +177,15 @@ function switchCell(cell) {
           let temp = p33.textContent;
           p33.textContent = p32.textContent;
           p32.textContent = temp;
-          p32.style.background = `url(./style/Photos/${p32.textContent}.png)`;
-          p33.style.background = `url(./style/Photos/${p33.textContent}.png)`;
+          p32.style.background = `url(./style/Photos/${p32.textContent}.jpg)`;
+          p33.style.background = `url(./style/Photos/${p33.textContent}.jpg)`;
         }
         if (p23.textContent == "33") {
           let temp = p33.textContent;
           p33.textContent = p23.textContent;
           p23.textContent = temp;
-          p23.style.background = `url(./style/Photos/${p23.textContent}.png)`;
-          p33.style.background = `url(./style/Photos/${p33.textContent}.png)`;
+          p23.style.background = `url(./style/Photos/${p23.textContent}.jpg)`;
+          p33.style.background = `url(./style/Photos/${p33.textContent}.jpg)`;
         }
         break;
     }
