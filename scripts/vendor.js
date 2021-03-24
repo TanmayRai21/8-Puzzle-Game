@@ -1,3 +1,22 @@
+function setCell() {
+  try {
+    for (let i = 1; i <= 3; i++) {
+      for (let j = 1; j <= 3; j++) {
+        let element = document.createElement("div");
+        element.id = "p" + i + j;
+        element.className = "clk";
+        element.textContent = i + "" + j;
+        grid[0].appendChild(element);
+      }
+    }
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+let grid = document.getElementsByClassName("grid");
+setCell();
+
 let p11 = document.getElementById("p11");
 let p12 = document.getElementById("p12");
 let p13 = document.getElementById("p13");
